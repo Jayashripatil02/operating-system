@@ -1,0 +1,2 @@
+time=$(date +"%H:%M")
+echo "currenttime:$time"

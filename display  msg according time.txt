@@ -1,0 +1,12 @@
+#/!/bin/bash
+mah=$(date +"%H:%M")
+echo "Todays date is $mah"
+Hour=${mah 0:2}
+if(Hour>=5 && Hour<12)then
+echo "Good Morning"
+elif(Hour>=12 && Hour<18)then
+echo "Good Afternoon"
+elif(Hour>=18 && Hour<22)then
+echo "Good Evening"
+else
+echo "Good Night"
